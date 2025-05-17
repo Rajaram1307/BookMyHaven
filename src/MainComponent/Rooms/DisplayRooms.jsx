@@ -18,7 +18,7 @@ const DisplayRooms = () => {
   });
 
   useEffect(() => {
-    fetch("http://localhost:3000/FeaturedProduct")
+    fetch("https://roombooking-json.onrender.com/FeaturedProduct")
       .then(data => data.json())
       .then(data => {
         setRooms(data);
