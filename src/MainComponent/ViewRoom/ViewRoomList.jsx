@@ -8,7 +8,7 @@ const ViewRoomList = () => {
   const[loading,setLoading] = useState(true);
 
    useEffect(() => {
-  fetch("https://roombooking-json.onrender.com")
+  fetch("https://roombooking-json.onrender.com/FeaturedProduct")
     .then((res) => res.json())
     .then((data) => {
       console.log("Fetched data:", data);
