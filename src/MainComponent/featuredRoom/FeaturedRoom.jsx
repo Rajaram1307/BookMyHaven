@@ -7,7 +7,7 @@ const FeaturedRoom = ()=>
     const[loading,setLoading] = useState(true)
       useEffect(()=>
       {
-        fetch("https://roombooking-json.onrender.com").
+        fetch("https://roombooking-json.onrender.com/FeaturedProduct").
         then(data=>data.json()).
         then(data=> 
             {
