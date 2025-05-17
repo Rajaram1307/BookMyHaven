@@ -1,0 +1,77 @@
+.homePage
+{
+   background-image: url("./image/homeimg.png");
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat;
+    height: 88vh;
+    width: 100vw; 
+}
+.homeBody
+{
+    position: absolute;
+    top: 35%;
+    left: 25%;   
+}
+.homeBody .content 
+{
+     width: 50vw;
+     position: absolute;
+     text-align: center;
+     opacity: .5;
+     background-color: black;
+     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+     padding: 30px;
+}
+.homeBody .content h1{
+    color: aliceblue;
+    font-size: 4rem;
+    padding: 10px;    
+}
+.homeBody .content h5{
+    font-size: 1.5rem;
+    color: aliceblue;
+    padding: 10px;
+}
+.homeBody .content button{
+    padding: 10px 20px 10px 20px;
+    font-size: 1.5rem;
+    
+}
+@media screen and (max-width: 767px) {
+  .content {
+    text-align: center;
+    padding: 2rem !important;
+    width: 200px;
+  }
+  .homePage
+  {
+    position: relative;
+  }
+  h1 {
+    font-size: 1.5rem !important;
+  }
+   .homeBody
+    {
+        width: 30px !important; 
+    position: relative;
+    top: 35%;
+    left: 10%;
+    }
+    .homeBody .content {
+    width: 80vw;
+    height: 200px;
+  
+   
+}
+.homeBody .content button {
+    height: 35px;
+    font-size: 15px;
+    padding-bottom: 30px;
+   
+}
+.homeBody .content h5 {
+    height: 35px;
+    font-size: 15px;
+}
+}

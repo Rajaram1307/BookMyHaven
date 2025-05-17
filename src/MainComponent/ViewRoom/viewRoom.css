@@ -1,0 +1,101 @@
+.homePage2
+{
+    background-image: url("./homeimg.jpg");
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 100vw; 
+}
+.homeBody2
+{
+    position: absolute;
+    top: 29%;
+    left: 25%;   
+}
+.homeBody2 .content2
+{
+     width: 50vw;
+     position: absolute;
+     text-align: center;
+     justify-content: center;
+     opacity: .5;
+     background-color: black;
+     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+     padding: 30px;
+}
+.homeBody2 .content2 h1{
+    color: aliceblue;
+    font-size: 4rem;
+    padding: 10px;    
+}
+p{
+    font-size: 1.4rem;
+}
+.homeBody2 .content2 h5{
+    font-size: 1.5rem;
+    color: aliceblue;
+    padding: 10px;
+}
+.homeBody2 .content2 button{
+    left: 5rem;
+    padding: 10px 20px 10px 20px;
+    font-size: 1.5rem;
+    
+}
+
+.container-fluid .imgContainer img
+{
+    height:28vh;
+    width: 20vw;
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+@media screen and (max-width: 767px) {
+    .homePage2
+{
+    height: 50vh;
+    width: 100vw; 
+}
+  .content2 {
+    text-align: center;
+    padding: 2rem !important;
+    width: 200px;
+  }
+  .homePage2
+  {
+    position: relative;
+  }
+  h1 {
+    font-size: 1.5rem !important;
+  }
+   .homeBody2
+    {
+        width: 30px !important; 
+    position: relative;
+    top: 35%;
+    left: 10%;
+    }
+    .homeBody2 .content2 {
+    width: 80vw;
+    height: 200px;
+  
+   
+}
+.homeBody2 .content2 button {
+    height: 35px;
+    font-size: 15px;
+    padding-bottom: 30px;
+   
+}
+.homeBody2 .content2 h5 {
+    height: 35px;
+    font-size: 15px;
+}
+.container-fluid .imgContainer img
+{
+    height:23vh;
+    width: 70vw;
+    margin-left: 2rem;
+}
+}

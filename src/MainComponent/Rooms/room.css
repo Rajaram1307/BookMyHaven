@@ -1,0 +1,104 @@
+.homePage1
+{
+    background-image: url("./homeimg.png");
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 100vw; 
+}
+.homeBody1
+{
+    position: absolute;
+    top: 20%;
+    left: 25%;   
+}
+.homeBody1 .content1 
+{
+     width: 50vw;
+     position: absolute;
+     text-align: center;
+     opacity: .5;
+     background-color: black;
+     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+     padding: 30px;
+}
+.homeBody1 .content1 h1{
+    color: aliceblue;
+    font-size: 4rem;
+    padding: 10px;    
+}
+.homeBody1 .content1 h5{
+    font-size: 1.5rem;
+    color: aliceblue;
+    padding: 10px;
+}
+.homeBody1 .content1 button{
+    padding: 10px 20px 10px 20px;
+    font-size: 1.5rem;
+    
+}
+.filter-card {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-range {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.form-select {
+  margin-bottom: 10px;
+}
+
+.form-check {
+  margin-bottom: 10px;
+}
+
+.form-check-input {
+  margin-right: 8px;
+}
+@media screen and (max-width: 767px) {
+    .homePage1
+{
+    height: 50vh;
+    width: 100vw; 
+}
+  .content1 {
+    text-align: center;
+    padding: 2rem !important;
+    width: 200px;
+  }
+  .homePage1
+  {
+    position: relative;
+  }
+  h1 {
+    font-size: 1.5rem !important;
+  }
+   .homeBody1
+    {
+        width: 30px !important; 
+    position: relative;
+    top: 35%;
+    left: 10%;
+    }
+    .homeBody1 .content1 {
+    width: 80vw;
+    height: 200px;
+  
+   
+}
+.homeBody1 .content1 button {
+    height: 35px;
+    font-size: 15px;
+    padding-bottom: 30px;
+   
+}
+.homeBody1 .content1 h5 {
+    height: 35px;
+    font-size: 15px;
+}
+}
