@@ -5,7 +5,7 @@
 ---
 
 ## 🔗 Live Demo
-🌐 [BookMyHaven Live](https://your-deployment-link.com)
+🌐 [BookMyHaven Live](https://book-my-haven-web.netlify.app/)
 
 ---
 
@@ -49,15 +49,17 @@
 ### Installation
 
 ```bash
-git clone https://github.com/yourusername/bookmyhaven.git
+git clone https://github.com/Rajaram1307/BookMyHaven.git
 cd bookmyhaven
 npm install
 npm start
+```
 ---
-
-🧑‍💻 Developed By
+##**🧑‍💻 Developed By**
 Raja Ram P
 📧 rajaramdet@gmail.com
-🔗 LinkedIn
-🌐 Portfolio
+🔗 [LinkedIn](https://www.linkedin.com/feed/)
+🌐 [Portfolio](https://rajaramportfolio.netlify.app/)
+
+
 
