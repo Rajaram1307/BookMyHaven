@@ -1,16 +1,63 @@
-<<<<<<< HEAD
-# React + Vite
+# 🏨 BookMyHaven - Room Booking Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**BookMyHaven** is a fully responsive and dynamic room booking web application developed using **React.js**. It allows users to search and filter rooms based on price, room size, and number of guests. The platform delivers a smooth user experience with seamless navigation, detailed room views, and efficient booking features.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Live Demo
+🌐 [BookMyHaven Live](https://your-deployment-link.com)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# BookMyHaven
->>>>>>> abe12c4a5eac04bdcd57d71539f8e9071e70e179
+## 📸 Features
+
+- 🔍 **Advanced Room Search**  
+  Search by price range, number of guests, and room size.
+
+- 🏠 **Room Listing & Details**  
+  View rooms with carousel images, features, descriptions, and real-time availability.
+
+- ✅ **Booking Functionality**  
+  Room reservation with form validation and confirmation alerts.
+
+- 🔄 **Pagination & Loading Spinners**  
+  Smooth navigation and loading indicators for large datasets.
+
+- 📱 **Fully Responsive Design**  
+  Optimized for all devices using responsive CSS.
+
+---
+
+## ⚙️ Tech Stack
+
+- **Frontend**: React.js, React Router, HTML5, CSS3, JavaScript  
+- **State Management**: useState, useEffect  
+- **Styling**: CSS Modules / Bootstrap (optional)  
+- **Deployment**: Render / Vercel / Netlify
+
+---
+
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js and npm installed
+
+### Installation
+
+```bash
+git clone https://github.com/yourusername/bookmyhaven.git
+cd bookmyhaven
+npm install
+npm start
+---
+
+🧑‍💻 Developed By
+Raja Ram P
+📧 rajaramdet@gmail.com
+🔗 LinkedIn
+🌐 Portfolio
+
